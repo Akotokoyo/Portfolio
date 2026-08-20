@@ -68,7 +68,15 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-border/50 pt-8 text-xs text-muted sm:flex-row">
           <p>Copyright {year} {siteConfig.name}. All rights reserved.</p>
-          <p>Built with Next.js, TypeScript, and Tailwind CSS.</p>
+          <div className="flex items-center gap-4">
+            <a
+              href="/privacy"
+              className="transition-colors hover:text-foreground"
+            >
+              Privacy Policy
+            </a>
+            <p>Built with Next.js, TypeScript, and Tailwind CSS.</p>
+          </div>
         </div>
       </div>
     </footer>

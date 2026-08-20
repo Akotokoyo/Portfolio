@@ -263,11 +263,11 @@ export const comingSoonProjects = [
 ];
 
 export const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
-  { href: "#toolkits", label: "Toolkits" },
-  { href: "#coming-soon", label: "Coming Soon" },
-  { href: "#blog", label: "Blog" },
-  { href: "#services", label: "Services" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#experience", label: "Experience" },
+  { href: "/#toolkits", label: "Toolkits" },
+  { href: "/#coming-soon", label: "Coming Soon" },
+  { href: "/#blog", label: "Blog" },
+  { href: "/#services", label: "Services" },
+  { href: "/#contact", label: "Contact" },
 ];
