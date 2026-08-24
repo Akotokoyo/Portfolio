@@ -32,7 +32,7 @@ function ProjectCard({
   );
 
   const className =
-    "relative flex h-28 w-40 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border bg-background/50 transition-colors hover:border-accent/40 sm:h-32 sm:w-44";
+    "relative flex h-28 w-44 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border bg-background/50 transition-colors hover:border-accent/40 sm:h-36 sm:w-56";
 
   if (url) {
     return (

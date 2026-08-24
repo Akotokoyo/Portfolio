@@ -53,6 +53,38 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
+    period: "2026",
+    company: "Mirage Games · Solo",
+    role: "Game Developer",
+    description:
+      "Released Before The Threshold on Google Play (August 21, 2026), a light-horror spot-the-difference game. Follow a girl trapped between past, present, and future, where something is wrong: uncover what does not add up, and find the courage to cross the threshold. Built end-to-end in Unity with story mode, procedural levels, and polished UI.",
+    tags: [
+      "Unity",
+      "Android",
+      "Spot the difference",
+      "Light horror",
+      "Procedural levels",
+      "development",
+    ],
+    projects: [
+      {
+        name: "Before The Threshold",
+        image: "/images/projects/before-the-threshold-menu.jpg",
+        url: "https://play.google.com/store/apps/details?id=it.MirageGames.BeforeTheThreshold",
+      },
+      {
+        name: "Level Selection",
+        image: "/images/projects/before-the-threshold-levels.jpg",
+        url: "https://play.google.com/store/apps/details?id=it.MirageGames.BeforeTheThreshold",
+      },
+      {
+        name: "Gameplay",
+        image: "/images/projects/before-the-threshold-gameplay.jpg",
+        url: "https://play.google.com/store/apps/details?id=it.MirageGames.BeforeTheThreshold",
+      },
+    ],
+  },
+  {
     period: "2025 – Present",
     company: "Elco · Cairo Montenotte, Savona, Italy",
     role: "Software Developer",
@@ -250,23 +282,20 @@ export const services = [
   },
 ];
 
-export const comingSoonProjects = [
-  {
-    name: "Horror Memory",
-    status: "Coming soon",
-    description:
-      "A horror spot-the-difference game with story-driven levels and procedural generation. Two panels side by side: the original scene on the right, and a distorted version on the left that grows more unsettling the longer differences stay hidden.",
-    image: "/images/projects/horror-memory.png",
-    url: "https://github.com/Akotokoyo/HorrorMemory",
-    tags: ["Unity", "Horror", "Procedural levels", "Spot the difference", "In development"],
-  },
-];
+/** Kept for future use — Coming Soon section is currently hidden from the page. */
+export const comingSoonProjects: {
+  name: string;
+  status: string;
+  description: string;
+  image: string;
+  url?: string;
+  tags: string[];
+}[] = [];
 
 export const navLinks = [
   { href: "/#about", label: "About" },
   { href: "/#experience", label: "Experience" },
   { href: "/#toolkits", label: "Toolkits" },
-  { href: "/#coming-soon", label: "Coming Soon" },
   { href: "/#blog", label: "Blog" },
   { href: "/#services", label: "Services" },
   { href: "/#contact", label: "Contact" },
