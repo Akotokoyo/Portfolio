@@ -109,7 +109,7 @@ export const experience: ExperienceItem[] = [
       "LOD",
     ],
     projects: [
-      { name: "Chimera", image: "/images/projects/chimera.png" },
+      { name: "Chimera", image: "/images/projects/chimera.jpg" },
       {
         name: "SceneAddressableToolkit",
         image: "/images/toolkits/scene-addressable-toolkit.png",
@@ -293,10 +293,10 @@ export const comingSoonProjects: {
 }[] = [];
 
 export const navLinks = [
-  { href: "/#about", label: "About" },
-  { href: "/#experience", label: "Experience" },
-  { href: "/#toolkits", label: "Toolkits" },
-  { href: "/#blog", label: "Blog" },
-  { href: "/#services", label: "Services" },
-  { href: "/#contact", label: "Contact" },
+  { href: "/portfolio#about", label: "About" },
+  { href: "/portfolio#experience", label: "Experience" },
+  { href: "/portfolio#toolkits", label: "Toolkits" },
+  { href: "/portfolio#blog", label: "Blog" },
+  { href: "/portfolio#services", label: "Services" },
+  { href: "/portfolio#contact", label: "Contact" },
 ];

@@ -13,9 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Giorgia Tedde | Unity Gameplay Programmer",
+  title: "Mirage Games | Indie Game Studio",
   description:
-    "Portfolio of Giorgia Tedde — Unity gameplay programmer with 7+ years in production, live mobile titles, and indie RPG development.",
+    "Mirage Games — Dream. Create. Play. Independent game studio from Italy. Chimera, Before The Threshold, and more.",
+  icons: {
+    icon: "/images/mirage-games-logo.png",
+    apple: "/images/mirage-games-logo.png",
+  },
 };
 
 export default function RootLayout({

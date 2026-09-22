@@ -26,6 +26,11 @@ export function Footer() {
           <div>
             <p className="mb-4 text-sm font-semibold">Explore</p>
             <ul className="space-y-2">
+              <li>
+                <a href="/" className="text-sm text-muted transition-colors hover:text-foreground">
+                  Mirage Games
+                </a>
+              </li>
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <a

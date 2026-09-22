@@ -2,34 +2,21 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { navLinks, siteConfig } from "@/data/site-data";
+import { studioNavLinks } from "@/data/mirage-games-data";
+import { StudioLogo } from "@/components/studio/StudioLogo";
 
-export function Navbar() {
+export function StudioNavbar() {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-lg">
       <nav className="container-max flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="/portfolio#home" className="group flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent/20 text-sm font-bold text-accent">
-            GT
-          </span>
-          <div className="hidden sm:block">
-            <p className="text-sm font-semibold leading-none">{siteConfig.name}</p>
-            <p className="text-xs text-muted">{siteConfig.title}</p>
-          </div>
+        <a href="#home" className="group flex items-center">
+          <StudioLogo size={36} />
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
-          <li>
-            <a
-              href="/"
-              className="text-sm text-muted transition-colors hover:text-foreground"
-            >
-              Mirage Games
-            </a>
-          </li>
-          {navLinks.map((link) => (
+          {studioNavLinks.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
@@ -39,20 +26,36 @@ export function Navbar() {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href="/portfolio"
+              className="text-sm text-muted transition-colors hover:text-foreground"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a
+              href="/privacy"
+              className="text-sm text-muted transition-colors hover:text-foreground"
+            >
+              Privacy
+            </a>
+          </li>
         </ul>
 
         <div className="hidden items-center gap-3 md:flex">
           <a
-            href={siteConfig.resumeUrl}
+            href="#games"
             className="rounded-lg border border-border px-4 py-2 text-sm transition-colors hover:border-accent/50 hover:text-accent"
           >
-            CV
+            Our Games
           </a>
           <a
-            href="/portfolio#contact"
+            href="#contact"
             className="rounded-lg bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[var(--accent-hover)]"
           >
-            Contact me
+            Get in touch
           </a>
         </div>
 
@@ -69,12 +72,7 @@ export function Navbar() {
       {open && (
         <div className="border-t border-border/50 bg-background px-4 py-4 md:hidden">
           <ul className="flex flex-col gap-4">
-            <li>
-              <a href="/" className="block text-sm text-muted" onClick={() => setOpen(false)}>
-                Mirage Games
-              </a>
-            </li>
-            {navLinks.map((link) => (
+            {studioNavLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
@@ -85,19 +83,30 @@ export function Navbar() {
                 </a>
               </li>
             ))}
+            <li>
+              <a href="/portfolio" className="block text-sm text-muted">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a href="/privacy" className="block text-sm text-muted">
+                Privacy
+              </a>
+            </li>
             <li className="flex gap-3 pt-2">
               <a
-                href={siteConfig.resumeUrl}
+                href="#games"
                 className="flex-1 rounded-lg border border-border px-4 py-2 text-center text-sm"
+                onClick={() => setOpen(false)}
               >
-                CV
+                Our Games
               </a>
               <a
-                href="/portfolio#contact"
+                href="#contact"
                 className="flex-1 rounded-lg bg-accent px-4 py-2 text-center text-sm text-white"
                 onClick={() => setOpen(false)}
               >
-                Contact me
+                Contact
               </a>
             </li>
           </ul>

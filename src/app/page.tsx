@@ -1,27 +1,21 @@
-import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
-import { About } from "@/components/About";
-import { Experience } from "@/components/Experience";
-import { Toolkits } from "@/components/Toolkits";
-import { Blog } from "@/components/Blog";
-import { Services } from "@/components/Services";
-import { Contact } from "@/components/Contact";
-import { Footer } from "@/components/Footer";
+import { StudioNavbar } from "@/components/studio/StudioNavbar";
+import { StudioHero } from "@/components/studio/StudioHero";
+import { GamesShowcase } from "@/components/studio/GamesShowcase";
+import { StudioAbout } from "@/components/studio/StudioAbout";
+import { StudioContact } from "@/components/studio/StudioContact";
+import { StudioFooter } from "@/components/studio/StudioFooter";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <StudioNavbar />
       <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Toolkits />
-        <Blog />
-        <Services />
-        <Contact />
+        <StudioHero />
+        <GamesShowcase />
+        <StudioAbout />
+        <StudioContact />
       </main>
-      <Footer />
+      <StudioFooter />
     </>
   );
 }
