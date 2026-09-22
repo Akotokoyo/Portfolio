@@ -31,6 +31,10 @@ export const studioConfig = {
   instagram: "https://www.instagram.com/mirage_games_it/",
   facebook:
     "https://www.facebook.com/profile.php?id=61594435921969&locale=it_IT",
+  footerDisclaimers: [
+    "Independent developer team — not a registered company.",
+    "Our released games are free to play, with no ads or in-app purchases.",
+  ],
 };
 
 export const studioSocialLinks = [

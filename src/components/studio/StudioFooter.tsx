@@ -13,6 +13,13 @@ export function StudioFooter() {
               <StudioLogo size={40} />
             </div>
             <p className="text-sm text-muted">{studioConfig.tagline}</p>
+            <div className="mt-4 space-y-1 border-t border-border/50 pt-4">
+              {studioConfig.footerDisclaimers.map((line) => (
+                <p key={line} className="text-xs leading-relaxed text-muted">
+                  {line}
+                </p>
+              ))}
+            </div>
           </div>
 
           <div>
