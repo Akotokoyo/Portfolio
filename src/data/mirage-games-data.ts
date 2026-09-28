@@ -18,11 +18,11 @@ export type Game = {
 };
 
 export const studioConfig = {
-  name: "Mirage Games",
+  name: "Mirako Games",
   tagline: "Dream. Create. Play",
   logo: "/images/mirage-games-logo.png",
   description:
-    "Mirage Games is an independent studio based in Italy. We build games that blend strong atmosphere with thoughtful mechanics - from light-horror puzzles to tactical RPGs. Currently a team of five developers, growing one project at a time.",
+    "Mirako Games is an independent studio based in Italy. We build games that blend strong atmosphere with thoughtful mechanics - from light-horror puzzles to tactical RPGs. Currently a team of five developers, growing one project at a time.",
   location: "Italy",
   teamSize: 5,
   email: "giorgiatedde@hotmail.com",

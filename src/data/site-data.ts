@@ -54,7 +54,7 @@ export type ExperienceItem = {
 export const experience: ExperienceItem[] = [
   {
     period: "2026",
-    company: "Mirage Games · Solo",
+    company: "Mirako Games · Solo",
     role: "Game Developer",
     description:
       "Released Before The Threshold on Google Play (August 21, 2026), a light-horror spot-the-difference game. Follow a girl trapped between past, present, and future, where something is wrong: uncover what does not add up, and find the courage to cross the threshold. Built end-to-end in Unity with story mode, procedural levels, and polished UI.",

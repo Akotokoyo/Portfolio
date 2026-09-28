@@ -28,7 +28,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="/" className="text-sm text-muted transition-colors hover:text-foreground">
-                  Mirage Games
+                  Mirako Games
                 </a>
               </li>
               {navLinks.map((link) => (

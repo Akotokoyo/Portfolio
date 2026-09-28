@@ -9,7 +9,7 @@ export type PrivacyApp = {
 export const privacyPolicy = {
   effectiveDate: "20 August 2026",
   contactEmail: "giorgiatedde@hotmail.com",
-  developerName: "Giorgia Tedde (PraiseTheSoftware / MirageGames)",
+  developerName: "Giorgia Tedde (PraiseTheSoftware / Mirako Games)",
   apps: [
     {
       name: "Platoon",

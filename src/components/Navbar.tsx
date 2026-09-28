@@ -26,7 +26,7 @@ export function Navbar() {
               href="/"
               className="text-sm text-muted transition-colors hover:text-foreground"
             >
-              Mirage Games
+              Mirako Games
             </a>
           </li>
           {navLinks.map((link) => (
@@ -71,7 +71,7 @@ export function Navbar() {
           <ul className="flex flex-col gap-4">
             <li>
               <a href="/" className="block text-sm text-muted" onClick={() => setOpen(false)}>
-                Mirage Games
+                Mirako Games
               </a>
             </li>
             {navLinks.map((link) => (

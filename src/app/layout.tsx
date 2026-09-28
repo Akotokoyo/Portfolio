@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mirage Games | Indie Game Studio",
+  title: "Mirako Games | Indie Game Studio",
   description:
-    "Mirage Games — Dream. Create. Play. Independent game studio from Italy. Chimera, Before The Threshold, and more.",
+    "Mirako Games — Dream. Create. Play. Independent game studio from Italy. Chimera, Before The Threshold, and more.",
   icons: {
     icon: "/images/mirage-games-logo.png",
     apple: "/images/mirage-games-logo.png",
