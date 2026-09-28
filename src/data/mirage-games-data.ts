@@ -26,7 +26,7 @@ export const studioConfig = {
   location: "Italy",
   teamSize: 5,
   email: "giorgiatedde@hotmail.com",
-  contactEmail: "mirage.games.it@gmail.com",
+  contactEmail: "akotokoyo@gmail.com",
   founded: "2026",
   instagram: "https://www.instagram.com/mirage_games_it/",
   facebook:
