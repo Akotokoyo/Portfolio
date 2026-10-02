@@ -38,17 +38,15 @@ export function StudioHero() {
 
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="absolute -inset-6 rounded-full bg-gradient-to-br from-sky-400/25 via-orange-400/15 to-transparent blur-2xl" />
-              <div className="relative flex h-64 w-64 items-center justify-center sm:h-80 sm:w-80">
-                <Image
-                  src={studioConfig.logo}
-                  alt={studioConfig.name}
-                  width={320}
-                  height={320}
-                  priority
-                  className="drop-shadow-2xl"
-                />
-              </div>
+              <div className="absolute -inset-8 rounded-[40%] bg-gradient-to-br from-sky-400/25 via-orange-400/15 to-transparent blur-2xl" />
+              <Image
+                src={studioConfig.logo}
+                alt={studioConfig.name}
+                width={859}
+                height={1021}
+                priority
+                className="relative h-72 w-auto drop-shadow-2xl sm:h-96"
+              />
             </div>
           </div>
         </div>

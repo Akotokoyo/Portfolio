@@ -20,7 +20,7 @@ export type Game = {
 export const studioConfig = {
   name: "Mirako Games",
   tagline: "Dream. Create. Play",
-  logo: "/images/mirage-games-logo.png",
+  logo: "/images/mirako-games-logo.png",
   description:
     "Mirako Games is an independent studio based in Italy. We build games that blend strong atmosphere with thoughtful mechanics - from light-horror puzzles to tactical RPGs. Currently a team of five developers, growing one project at a time.",
   location: "Italy",

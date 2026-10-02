@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   description:
     "Mirako Games — Dream. Create. Play. Independent game studio from Italy. Chimera, Before The Threshold, and more.",
   icons: {
-    icon: "/images/mirage-games-logo.png",
-    apple: "/images/mirage-games-logo.png",
+    icon: "/images/mirako-games-logo.png",
+    apple: "/images/mirako-games-logo.png",
   },
 };
 

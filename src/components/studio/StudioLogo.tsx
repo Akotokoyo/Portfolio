@@ -13,9 +13,10 @@ export function StudioLogo({
       <Image
         src={studioConfig.logo}
         alt={studioConfig.name}
-        width={size}
-        height={size}
-        className="shrink-0"
+        width={859}
+        height={1021}
+        className="h-auto shrink-0"
+        style={{ width: size }}
         priority
       />
       {showText && (
